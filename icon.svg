@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39424f"/>
+      <stop offset="100%" stop-color="#151a22"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5aa7ff"/>
+      <stop offset="100%" stop-color="#1f6fe0"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#11151c"/>
+      <stop offset="100%" stop-color="#070a0e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" rx="246" ry="246" fill="url(#bg)"/>
+
+  <!-- monitor stand -->
+  <rect x="464" y="690" width="96" height="70" fill="#5b6675"/>
+  <rect x="352" y="752" width="320" height="48" rx="24" fill="#6d7887"/>
+
+  <!-- screen -->
+  <rect x="112" y="140" width="800" height="560" rx="58" ry="58" fill="url(#screen)" stroke="#6d7887" stroke-width="16"/>
+
+  <!-- film reel -->
+  <g transform="translate(512 420)">
+    <circle r="206" fill="url(#blue)"/>
+    <circle r="206" fill="none" stroke="#0d1016" stroke-width="10" opacity="0.35"/>
+    <g fill="#0b0e13">
+      <circle r="58"/>
+      <circle cx="0"    cy="-128" r="48"/>
+      <circle cx="111"  cy="-64"  r="48"/>
+      <circle cx="111"  cy="64"   r="48"/>
+      <circle cx="0"    cy="128"  r="48"/>
+      <circle cx="-111" cy="64"   r="48"/>
+      <circle cx="-111" cy="-64"  r="48"/>
+    </g>
+  </g>
+</svg>

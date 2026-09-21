@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key><string>VideoEditor</string>
+  <key>CFBundleDisplayName</key><string>VideoEditor</string>
+  <key>CFBundleIdentifier</key><string>local.videoeditor.app</string>
+  <key>CFBundleVersion</key><string>1.0</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleExecutable</key><string>VideoEditor</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>NSPrincipalClass</key><string>NSApplication</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSCameraUsageDescription</key><string>VideoEditor shows a live monitor of the OBS Virtual Camera while you record.</string>
+  <key>NSMicrophoneUsageDescription</key><string>VideoEditor does not record audio itself; macOS may ask when a virtual camera device is opened.</string>
+  <key>NSLocalNetworkUsageDescription</key><string>VideoEditor connects to the OBS WebSocket server to start and stop recording and streaming.</string>
+</dict>
+</plist>
